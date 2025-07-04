@@ -1,0 +1,24 @@
+{
+  "name": "r2-uploader",
+  "version": "1.0.0",
+  "description": "Cloudflare R2 video uploader service",
+  "main": "r2_uploader.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node r2_uploader.js",
+    "dev": "node r2_uploader.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "@aws-sdk/client-s3": "^3.478.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  },
+  "keywords": ["express", "cloudflare", "r2", "upload", "video"],
+  "author": "",
+  "license": "ISC"
+} 
